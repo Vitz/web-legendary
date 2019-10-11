@@ -164,12 +164,13 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    opacity: 1.0;
-    -webkit-animation: smooth 0.5s ease-in;
-    -moz-animation: smooth 0.5s ease-in;
-    -o-animation: smooth 0.5s ease-in;
-    -ms-animation: smooth 0.5s ease-in;
-    animation: smooth 0.5s ease-in;
+    opacity: 0.9;
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-animation: smooth 1.0s ease-in;
+    -moz-animation: smooth 1.0s ease-in;
+    -o-animation: smooth 1.0s ease-in;
+    -ms-animation: smooth 1.0s ease-in;
+    animation: smooth 1.0s ease-in;
     background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
@@ -179,7 +180,7 @@ img::-moz-selection {
 
   @-webkit-keyframes smooth {
     0% { opacity: 0.8;}
-    100% { opacity: 1;}
+    100% { opacity: 0.9;}
   }
 }
 
