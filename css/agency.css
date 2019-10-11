@@ -108,7 +108,8 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #828285;
+  background-color: #212529;
+  opacity: 0.9;
 }
 
 #mainNav .navbar-toggler {
@@ -118,7 +119,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #eb3d2d;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 

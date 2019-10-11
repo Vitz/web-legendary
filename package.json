@@ -7,6 +7,11 @@
   "author": "<tu wpisz maila>",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "4.3.1",
+    "jquery.easing": "^1.4.1",
     "tilt.js": "^1.2.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2"
   }
 }
