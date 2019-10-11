@@ -1,0 +1,7 @@
+img.logo {
+    background-color: transparent;
+    width: 64px;
+}
+.logo-text {
+   display: inline-block;
+}
