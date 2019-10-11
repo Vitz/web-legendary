@@ -1,5 +1,10 @@
 $(function() {
 
+  const tilt = $('.js-tilt').tilt();
+  tilt.on('change', callback);
+  tilt.on('tilt.mouseLeave', callback);
+  tilt.on('tilt.mouseEnter', callback);
+
   $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
     preventSubmit: true,
     submitError: function($form, event, errors) {
