@@ -98,13 +98,13 @@ img::-moz-selection {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #e50000 !important;
+  border-color: #e50000 !important;
   color: white;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(299, 0, 0, 0.8) !important;
 }
 
 #mainNav {
@@ -129,7 +129,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #eb3d2d;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -267,7 +267,7 @@ header.masthead .intro-text .intro-heading {
   height: 100%;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(235, 61, 45, 0.8);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -463,7 +463,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #eb3d2d;
 }
 
 .timeline > li .timeline-image h4 {

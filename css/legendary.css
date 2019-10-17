@@ -1,7 +1,30 @@
-img.logo {
-    background-color: transparent;
-    width: 64px;
-}
+
 .logo-text {
+   opacity: 1.0;
    display: inline-block;
 }
+
+div.img-container {    
+	position: relative;
+	display: inline-block;
+	opacity: 1.0;
+    width: 50px;
+}
+
+img.logo-burn { 
+	position: absolute;   
+	opacity: 1.0;
+    width: 50px;	
+	top: -29px;
+	left: 0px;
+}
+
+img.logo {    
+	position: absolute;   
+	opacity: 1.0;
+    width: 50px;
+	top: -29px;
+	left: 0px;
+}
+
+

@@ -1,4 +1,7 @@
 $(function() {
+	var callback = function (){
+		
+	};
 
   const tilt = $('.js-tilt').tilt();
   tilt.on('change', callback);

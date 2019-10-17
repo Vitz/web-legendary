@@ -7,7 +7,9 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Legendary Team</title>
+  <title>Legendary Rover Team</title>
+
+	<link rel="icon" href="img/icon.png">
 
   <!-- Bootstrap core CSS -->
   <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -27,7 +29,12 @@
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-	  <div class= "inline"> <img class="logo" src="img/logo.png"/> Legendary</div></div>
+	  <div class= "logo-text"> 
+		<div class="img-container">
+			<img class="logo" id="logo" src="img/logo.png"/> 
+			<img class="logo-burn" id="logo-burn" src="img/logo-burn.png"/> 
+		</div>
+		Legendary Rover Team</div></div>
 
 	  </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,13 +44,10 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Project</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="#about">Awards</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#team">Team</a>
@@ -66,59 +70,23 @@
             data-tilt-scale="1.0"
             data-tilt-perspective="1000"
             data-tilt-speed="2000">
-          <div class="intro-lead-in">Welcome To Our Studio!</div>
-          <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+           <!-- <div class="intro-lead-in">Legendary Rover Team</div>  -->
+          <div class="intro-heading text-uppercase">Legendary Rover Team</div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Tell Me More</a>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Services -->
-  <section class="page-section" id="services">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Services</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">E-Commerce</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-        </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">Responsive Design</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-        </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">Web Security</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
 
   <!-- Portfolio Grid -->
   <section class="bg-light page-section" id="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Portfolio</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading text-uppercase">Project</h2>
+          <h3 class="section-subheading text-muted">See what make us successful!</h3>
         </div>
       </div>
       <div class="row">
@@ -132,8 +100,7 @@
             <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Threads</h4>
-            <p class="text-muted">Illustration</p>
+            <h4>Manipulator</h4>            
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -146,8 +113,7 @@
             <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Explore</h4>
-            <p class="text-muted">Graphic Design</p>
+            <h4>3D Printing</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -160,8 +126,7 @@
             <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Finish</h4>
-            <p class="text-muted">Identity</p>
+            <h4>AI with Nvidia</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -174,8 +139,7 @@
             <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Lines</h4>
-            <p class="text-muted">Branding</p>
+            <h4>Chassis</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -188,8 +152,7 @@
             <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Southwest</h4>
-            <p class="text-muted">Website Design</p>
+            <h4>Computer Vision</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -202,8 +165,7 @@
             <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Window</h4>
-            <p class="text-muted">Photography</p>
+            <h4>Teamwork</h4>
           </div>
         </div>
       </div>
@@ -215,8 +177,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading text-uppercase">Story & awards</h2>
+          <h3 class="section-subheading text-muted">How did it begin?</h3>
         </div>
       </div>
       <div class="row">
@@ -228,11 +190,11 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>2009-2011</h4>
+                  <h4>2013</h4>
                   <h4 class="subheading">Our Humble Beginnings</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p class="text-muted">Project has been started by 2 students</p>
                 </div>
               </div>
             </li>
@@ -242,11 +204,11 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>March 2011</h4>
-                  <h4 class="subheading">An Agency is Born</h4>
+                  <h4> 2014</h4>
+                  <h4 class="subheading">3rd URC award</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p class="text-muted">Legendary Rover II won 3 price on University Rover Challenge with 338 score</p>
                 </div>
               </div>
             </li>
@@ -256,11 +218,11 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>December 2012</h4>
-                  <h4 class="subheading">Transition to Full Service</h4>
+                  <h4> 2015</h4>
+                  <h4 class="subheading">1st URC award</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p class="text-muted">Legendary Rover III won 1 price on University Rover Challenge with 459.8 score</p>
                 </div>
               </div>
             </li>
@@ -270,19 +232,19 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>July 2014</h4>
-                  <h4 class="subheading">Phase Two Expansion</h4>
+                  <h4> 2016</h4>
+                  <h4 class="subheading">1st URC award</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p class="text-muted">Legendary Rover IV won 1 price on University Rover Challenge with 452.3 score</p>
                 </div>
               </div>
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <h4>Be Part
-                  <br>Of Our
-                  <br>Story!</h4>
+                <h4>Be part
+                  <br>of our
+                  <br>success!</h4>
               </div>
             </li>
           </ul>
@@ -296,30 +258,38 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+          <h2 class="section-heading text-uppercase">Our Team</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
-      <div class="row">
+      <div class="row">	  
         <div class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-            <h4>Kay Garland</h4>
-            <p class="text-muted">Lead Designer</p>
+            <h4>- </h4>
+            <p class="text-muted">Lead Designer</p> 
+          </div>
+        </div>
+        
+		<div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/5.jpg" alt="">
+            <h4>Adam Szelec</h4>
+            <p class="text-muted">Project Manager</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
+                <a href="mailto:team.legendaryrover@gmail.com">
+                  <i class="fa fa-envelope"></i>
+                </a>
+              </li>              
+			  <li class="list-inline-item">
+                <a href="https://www.m.me/legendaryrover">
+                  <i class="fab fa-facebook-messenger"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.facebook.com/legendaryrover/">
                   <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
             </ul>
@@ -327,88 +297,43 @@
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-            <h4>Larry Parker</h4>
-            <p class="text-muted">Lead Marketer</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-            <h4>Diana Pertersen</h4>
+            <img class="mx-auto rounded-circle" src="img/team/4.jpg" alt="">
+            <h4>Yurii Kravets</h4>
             <p class="text-muted">Lead Developer</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
+
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+	   <div class="row">	  
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+            <h4> - </h4>
+            <p class="text-muted">Lead Electronical Engineer</p>
+
+          </div>
         </div>
-      </div>
-    </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+            <h4> - </h4>
+            <p class="text-muted">Lead Mechanic Engineer</p>
+
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+            <h4> - </h4>
+            <p class="text-muted">Marketer</p>
+        
+          </div>
+        </div>
+      </div>   
+   </div>	
   </section>
 
-  <!-- Clients -->
-  <section class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <!-- Contact -->
   <section class="page-section" id="contact">
@@ -416,12 +341,12 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Contact Us</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 class="section-subheading text-muted">Would you like to become our partner?</h3>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+          <form id="contactForm" name="sentMessage" novalidate="novalidate" >
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
@@ -433,7 +358,7 @@
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
+                  <input class="form-control" id="phone" type="tel" placeholder="Your Phone " data-validation-required-message="Please enter your phone number.">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
@@ -460,35 +385,15 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2019</span>
+          <span class="copyright">Copyright &copy;  Legendary Rover Team 2019</span>
         </div>
         <div class="col-md-4">
-          <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </li>
+          <ul class="list-inline social-buttons"> 
+            
           </ul>
         </div>
         <div class="col-md-4">
-          <ul class="list-inline quicklinks">
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
-            </li>
+          <ul class="list-inline quicklinks">        
           </ul>
         </div>
       </div>
@@ -511,18 +416,12 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <h2 class="text-uppercase">Manipulator</h2>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Threads</li>
-                  <li>Category: Illustration</li>
-                </ul>
+                <p>High precise control of rover manipulator without using inverse dynamics.</p>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Close</button>
               </div>
             </div>
           </div>
@@ -545,18 +444,12 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <h2 class="text-uppercase">3D printing</h2>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Explore</li>
-                  <li>Category: Graphic Design</li>
-                </ul>
+                <p>Various component made using 3D printing technology.</p>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Close</button>
               </div>
             </div>
           </div>
@@ -579,18 +472,12 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <h2 class="text-uppercase">AI with NVIDIA</h2>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Finish</li>
-                  <li>Category: Identity</li>
-                </ul>
+                <p>NVIDIA Jetson TX2 delivers speed and power-efficiency in an embedded AI computing device.</p>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Close</button>
               </div>
             </div>
           </div>
@@ -613,18 +500,12 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <h2 class="text-uppercase">Chassis</h2>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Lines</li>
-                  <li>Category: Branding</li>
-                </ul>
+                <p>Aluminium chassis ensure low weight and durability. </p>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Close</button>
               </div>
             </div>
           </div>
@@ -647,15 +528,10 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <h2 class="text-uppercase">Computer Vision</h2>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <p>Four color cameras guarantee 360 degree view, view stability and high image quality. Lidar provides high-accuracy distance measurement in surroundings.</p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
-                </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   Close Project</button>
@@ -681,15 +557,9 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <h2 class="text-uppercase">Teamwork</h2>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Window</li>
-                  <li>Category: Photography</li>
-                </ul>
+                <p>What make us successful is teamwork, ambitions and enthusiasm for work. </p>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   Close Project</button>
@@ -710,11 +580,16 @@
 
   <!-- Contact form JavaScript -->
   <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+  <script src="js/contact_me.js"></script>  
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
   <script src="node_modules/tilt.js/src/tilt.jquery.js"></script>
-</body>
+  
+    <!-- Scrol feauture -->
+  <script src="js/scroll.js"></script>
+  
+  
 
+</body>
 </html>
